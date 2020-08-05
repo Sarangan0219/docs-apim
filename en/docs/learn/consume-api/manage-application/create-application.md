@@ -31,11 +31,15 @@ The API Manager comes with a pre-created default application, which allows unlim
         <th>Field</th><th>Value</th>
         <tr><td>Application Name</td><td>PizzaShackApp</td></tr>
         <tr><td>Per Token Quota</td><td>10PerMin</td></tr>
-        <tr><td>Token Type</td><td>JWT</td></tr>
         <tr><td>Description</td><td>PizzaShack Application</td></tr>
         </table>
      </html>
-
+     
+     <html><div class="admonition note">
+     <p class="admonition-title">Note</p>
+     <p> From API-M 3.1.0 onwards the option to select key types and multiple key managers has been removed.
+     </div>
+     </html>
         
        [![create a new application]({{base_path}}/assets/img/learn/create-new-application.png)]({{base_path}}/assets/img/learn/create-new-application.png)
       
